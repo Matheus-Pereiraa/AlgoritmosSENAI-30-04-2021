@@ -1,0 +1,16 @@
+
+
+float salario,salarioreajuste;
+char nome[41],sobrenome[40];
+printf("Informe nome e sobrenome do funcionario");
+scanf("%s %s",&nome,&sobrenome);
+printf("Informe o salario do fincionario: R$");
+scanf("%f",&salario);
+salarioreajuste = salario+(salario*0.3);
+
+   
+    if(salario>500)
+printf("%s %s não tem direito um aumento de salario",nome,sobrenome);
+
+    else
+printf("o seu novo salario de %s %s foi para: R$ ",nome,sobrenome,salarioreajuste);

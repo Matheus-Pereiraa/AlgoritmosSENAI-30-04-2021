@@ -1,0 +1,19 @@
+
+
+
+idade, meses, dias, horas, minutos
+
+Printf ("Qual a sua idade?")
+Scanf (idade)
+
+meses < idade * 12
+printf ("-", meses, "meses")
+
+dias < idade * 365
+printf ("-", dias, "dias")
+
+horas < dias * 24
+printf("-", horas, "horas")
+
+minutos < horas * 60
+printf ("-", minutos, "minutos")

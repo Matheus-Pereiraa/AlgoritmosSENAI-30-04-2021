@@ -1,0 +1,27 @@
+
+
+
+printf("entre com o a sua idade: ");     
+scanf("idade");     
+if(idade < 5)              
+printf("voce não tem categoria");     
+
+else         
+if(idade >=5 & idade<8)                     
+printf("sua categoria e a infantil A");             
+
+else             
+if(idade >=8 & idade<11)                                 
+printf("sua categoria e a infantil B");
+                 
+else                 
+if(idade >=11 & idade<14)                                         
+printf("sua categoria e a juvenil A");
+                     
+else                     
+if(iade >=14 & idade<17)                                                
+printf("sua categoria e a juvenil B");                         
+
+else                         
+if(idade >=18)                                                          
+printf("sua categoria e a adulto");                             

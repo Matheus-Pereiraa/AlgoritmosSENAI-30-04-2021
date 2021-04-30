@@ -1,0 +1,20 @@
+
+
+
+int ano_nasc,ano_atual,id_anos,id_meses,id_dias,id_semanas;
+
+printf("Qual o ano do seu nascimento");
+
+scanf("%f",&ano_nasc);
+
+printf("Qual o ano atual");
+
+scanf("%f",&ano_atual);
+
+id_anos=(ano_atual-ano_nasc);
+
+id_meses=(id_anos*12);
+
+id_dias=(id_anos*365);
+
+id_semanas=(id_meses*4);
